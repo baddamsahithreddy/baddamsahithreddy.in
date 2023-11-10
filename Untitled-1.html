@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    /* Centering container */
+    .center-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    /* Button styles */
+    button {
+      background: transparent;
+      border: none;
+    }
+
+    .box {
+  width: 140px;
+  height: auto;
+  float: left;
+  transition: .5s linear;
+  position: relative;
+  display: block;
+  overflow: hidden;
+  padding: 15px;
+  text-align: center;
+  margin: 0 5px;
+  background: transparent;
+  text-transform: uppercase;
+  font-weight: 900;
+  justify-content: center;
+}
+
+    .box:hover {
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    }
+
+    .box:hover:before,
+    .box:hover:after {
+      border-color: #262626;
+      height: 100%;
+      transform: translateX(0);
+      transition: 0.3s transform linear, 0.3s height linear, 0.3s border-color linear;
+    }
+  </style>
+</head>
+<body>
+  <div class="center-container">
+    <button>
+      <span class="box">
+        Hire Me
+      </span>
+    </button>
+  </div>
+</body>
+</html>
