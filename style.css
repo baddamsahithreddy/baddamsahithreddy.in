@@ -36,7 +36,7 @@ nav,
 nav {
   justify-content: space-around;
   align-items: center;
-  height: 22vh;
+  height: 20vh;
 }
 
 .nav-links {
@@ -44,7 +44,7 @@ nav {
   list-style: none;
   font-size: 1.5rem;
   justify-content: center;
-  margin-top:  25px;
+  margin-top: 0px;
 }
 
 a {
@@ -69,24 +69,6 @@ a:hover {
 }
 
 /* HAMBURGER MENU */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 #hamburger-nav {
   display: none;
@@ -476,19 +458,25 @@ article .icon {
 
 
 /* email button*/
+.text-center{
+  text-align: center;
+}
+
+
+/*hire me button*/
 
 
 
 
 .box {
-  width: 140px;
+  width: 120px;
   height: auto;
   float: left;
   transition: .5s linear;
   position: relative;
   display: block;
   overflow: hidden;
-  padding: 15px;
+  padding: 10px;
   text-align: center;
   margin: 0 5px;
   background: transparent;
@@ -644,7 +632,8 @@ button {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  height: 70vh;
+  height: 1000vh;
+  align-items: center;
 }
 
 .contact-info-upper-container {
@@ -655,7 +644,7 @@ button {
   border-color: rgb(255, 254, 254);
   background: (250, 250, 250);
   margin: 0rem auto;
-  margin-bottom: 5px;
+  margin-bottom: -20px;
   margin-top: 3px;
   padding: 0.5rem;
 }
@@ -671,6 +660,45 @@ button {
 .contact-info-container p {
   font-size: larger;
 }
+
+
+
+
+
+
+
+
+
+
+.nav-links-container{
+  margin-top: 5px;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* FOOTER SECTION */
